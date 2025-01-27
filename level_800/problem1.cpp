@@ -13,7 +13,7 @@ int main()
 	cin >> x ;
 	int remaining = x;
 
-	while (remaining > 1) {
+	while (remaining >= 1) {
 		if(remaining == 1) calc(remaining,steps,1);
 		if(remaining == 2) calc(remaining,steps,2);
 		if(remaining == 3) calc(remaining,steps,3);
@@ -25,3 +25,5 @@ int main()
 
 	return 0;
 }
+
+
